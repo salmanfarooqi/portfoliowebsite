@@ -1,0 +1,204 @@
+/* Hover */
+.sc_cover:hover + .elementor-widget-wrap .num-hover, .sc_cover:hover + .elementor-widget-wrap .num-hover * {
+  color: var(--theme-color-text_link);
+}
+
+.sc_cover:hover + .elementor-widget-wrap .rotate-hover.elementor-view-framed .elementor-icon {
+  border-color: var(--theme-color-text_dark);
+}
+.sc_cover:hover + .elementor-widget-wrap .rotate-hover.elementor-view-framed .elementor-icon svg {
+  -webkit-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+
+/* Portfolio Extra */
+.sc_portfolio.sc_portfolio_extra .sc_portfolio_item .post_featured .post_info .post_title {
+  background-color: var(--theme-color-bg_color);
+}
+.sc_portfolio.sc_portfolio_extra .sc_portfolio_item .post_featured .post_info .post_title a {
+  color: var(--theme-color-text_dark) !important;
+}
+
+.sc_portfolio.sc_portfolio_extra .sc_portfolio_item .post_featured .post_info .post_meta .post_categories {
+  background-color: var(--theme-color-bg_color);
+}
+.sc_portfolio.sc_portfolio_extra .sc_portfolio_item .post_featured .post_info .post_meta .post_categories a {
+  color: var(--theme-color-text_dark) !important;
+}
+
+/* Blogger Load More Navigation */
+.sc_blogger .sc_item_pagination_load_more, .nav-links-more {
+  margin-top: 2.8em;
+}
+
+/* Blogger Pagination */
+.sc_blogger_default.sc_blogger_default_classic .slider_container.slider_pagination_pos_bottom .swiper-pagination-bullets .swiper-pagination-bullet,
+.sc_blogger_default.sc_blogger_default_classic .slider_outer.slider_outer_pagination_pos_bottom .swiper-pagination-bullets .swiper-pagination-bullet,
+.sc_blogger_default.sc_blogger_default_classic .slider_outer.slider_outer_pagination_pos_bottom_outside .swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: var(--theme-color-bd_color);
+  border-color: var(--theme-color-bd_color);
+}
+
+.sc_blogger_default.sc_blogger_default_classic .swiper-pagination-custom .swiper-pagination-button.swiper-pagination-button-active,
+.sc_blogger_default.sc_blogger_default_classic .sc_slider_controls.slider_pagination_style_bullets .slider_pagination_bullet.swiper-pagination-bullet-active,
+.sc_blogger_default.sc_blogger_default_classic .sc_slider_controls.slider_pagination_style_bullets .slider_pagination_bullet:hover,
+.sc_blogger_default.sc_blogger_default_classic .slider_container .slider_pagination_wrap .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.sc_blogger_default.sc_blogger_default_classic .slider_outer .slider_pagination_wrap .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.sc_blogger_default.sc_blogger_default_classic .slider_container .slider_pagination_wrap .swiper-pagination-bullet:hover,
+.sc_blogger_default.sc_blogger_default_classic .slider_outer .slider_pagination_wrap .swiper-pagination-bullet:hover {
+  border-color: var(--theme-color-text_link);
+  background-color: var(--theme-color-text_link);
+}
+
+/* Testimonials QW Date */
+.sc_testimonials_qw-date .sc_testimonials_item {
+  border: none;
+  background-color: var(--theme-color-alter_bg_color);
+}
+
+/* Price Focus */
+.gradient_animation .sc_price_light .sc_price_item:not(.sc_price_active) .sc_price_item_price .sc_price_item_price_value,
+.gradient_animation .sc_price_focus .sc_price_item:not(.sc_price_active) .sc_price_item_price .sc_price_item_price_value {
+  color: var(--theme-color-text_link);
+  background: linear-gradient(45deg, var(--theme-color-text_link), var(--theme-color-text_link2));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  animation: gradient_anim 5s ease infinite reverse;
+}
+
+/* Hover text */
+.sc_cover:hover + .elementor-container .hover-color-text, .sc_cover:hover + .elementor-container .hover-color-text * {
+  color: var(--theme-color-text_link);
+}
+
+/* Gradient Animation */
+.trx_addons_bg_text_item .gradient_animation {
+  color: var(--theme-color-text_link);
+  background: linear-gradient(45deg, var(--theme-color-text_link), var(--theme-color-text_link2));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  animation: gradient_anim 5s ease infinite reverse;
+}
+
+/* Title */
+.sc_title .sc_item_title_text .gradient_animation {
+  color: var(--theme-color-text_link);
+  background: linear-gradient(45deg, var(--theme-color-text_link), var(--theme-color-text_link2));
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-size: 200% 100% !important;
+  animation: gradient_anim 5s ease infinite reverse;
+  font-weight: 700;
+}
+.sc_title .sc_item_title_text .gradient_animation.link_link3 {
+  color: var(--theme-color-text_link);
+  background: linear-gradient(45deg, var(--theme-color-text_link), var(--theme-color-text_link3));
+  background-clip: text;
+}
+.sc_title .sc_item_title_text .gradient_animation.hover2_link2 {
+  color: var(--theme-color-text_link3);
+  background: linear-gradient(45deg, var(--theme-color-text_hover2), var(--theme-color-text_link2));
+  background-clip: text;
+}
+
+/* Elementor Heading */
+.elementor-widget-heading .elementor-heading-title .gradient_animation {
+  color: var(--theme-color-text_link);
+  background: linear-gradient(45deg, var(--theme-color-text_link) var(--theme-color-text_link2));
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-size: 200% 100% !important;
+  animation: gradient_anim 5s ease infinite reverse;
+}
+.elementor-widget-heading .elementor-heading-title .gradient_animation.link_link3 {
+  color: var(--theme-color-text_link);
+  background: linear-gradient(45deg, var(--theme-color-text_link), var(--theme-color-text_link3));
+  background-clip: text;
+}
+.elementor-widget-heading .elementor-heading-title .gradient_animation.hover3_link3 {
+  color: var(--theme-color-text_link3);
+  background: linear-gradient(45deg, var(--theme-color-text_hover2), var(--theme-color-text_link3));
+  background-clip: text;
+}
+
+/* Logo */
+.sc_layouts_row_type_compact .custom-logo-link img,
+.sc_layouts_row_type_compact .sc_layouts_logo img {
+  max-height: 6.5em;
+}
+
+.fixed_bg_image {
+  display: block;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+.page_wrap.with_extra_bg .page_content_wrap {
+  background-color: transparent;
+}
+
+/* Lists */
+ul[class*="trx_addons_list"].accent_2 > li:before {
+  color: var(--theme-color-text_link2);
+}
+
+/* Widget Categories */
+.sidebar .widget_product_categories ul li,
+.sidebar .widget_categories ul li {
+  color: var(--theme-color-alter_light) !important;
+}
+.sidebar .widget_product_categories ul li a,
+.sidebar .widget_categories ul li a {
+  color: var(--theme-color-alter_light) !important;
+}
+.sidebar .widget_product_categories ul li a:hover,
+.sidebar .widget_categories ul li a:hover {
+  color: var(--theme-color-text_link) !important;
+}
+
+/* 404 */
+.post_item_404 .post_content .all-svg {
+  display: none;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+  background-color: var(--theme-color-text_link2);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  /* Blogger Load More Navigation */
+  .sc_blogger .sc_item_pagination_load_more, .nav-links-more {
+    margin-top: 2em;
+  }
+}
+@media (max-width: 1023px) {
+  /* Widget Sidebar */
+  .elementor-widget-sidebar .widget {
+    width: 100% !important;
+  }
+  .elementor-widget-sidebar .widget + .widget {
+    margin-top: var(--theme-var-grid_gap) !important;
+  }
+
+  .sidebar:not(.sidebar_float) {
+    margin-left: calc( (var(--theme-var-grid_gap) / 2) * -1 );
+    margin-right: calc( (var(--theme-var-grid_gap) / 2) * -1 );
+    width: calc(100% + var(--theme-var-grid_gap)) !important;
+  }
+}
+
+/*# sourceMappingURL=extra-styles.css.map */
