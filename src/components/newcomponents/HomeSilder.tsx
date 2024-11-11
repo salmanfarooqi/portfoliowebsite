@@ -19,8 +19,8 @@
 
     const downloadFile = () => {
       const link = document.createElement("a");
-      link.href = "/Document/salman cv.pdf";
-      link.download = "document.pdf";
+      link.href = "/Document/salmn.docx";
+      link.download = "document.docx";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
